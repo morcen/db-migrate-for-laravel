@@ -2,9 +2,9 @@
 
 namespace Morcen\MorcenDbMigrate;
 
+use Morcen\MorcenDbMigrate\Commands\MorcenDbMigrateCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Morcen\MorcenDbMigrate\Commands\MorcenDbMigrateCommand;
 
 class MorcenDbMigrateServiceProvider extends PackageServiceProvider
 {
