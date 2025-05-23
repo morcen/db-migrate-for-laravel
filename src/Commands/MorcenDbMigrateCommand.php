@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Morcen\MorcenDbMigrate\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MorcenDbMigrateCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'db-migrate-for-laravel';
 
     public $description = 'My command';
 

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "morcen/db-migrate-for-laravel",
+    "description": "Database migration tool for Laravel projects",
     "keywords": [
-        ":vendor_name",
+        "morcen",
         "laravel",
-        ":package_slug"
+        "db-migrate-for-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/morcen/db-migrate-for-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "morcen",
+            "email": "hello@morcen.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Morcen\\MorcenDbMigrate\\": "src/",
+            "Morcen\\MorcenDbMigrate\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Morcen\\MorcenDbMigrate\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Morcen\\MorcenDbMigrate\\MorcenDbMigrateServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "MorcenDbMigrate": "Morcen\\MorcenDbMigrate\\Facades\\MorcenDbMigrate"
             }
         }
     },
